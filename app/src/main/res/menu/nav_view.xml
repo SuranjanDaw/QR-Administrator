@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Info" />
+        <item
+            android:id="@+id/scan"
+            android:icon="@drawable/ic_camera_enhance_black_24dp"
+            android:title="Scanner" />
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Login" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout"
+            />
+    </group>
+</menu>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawerLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/bg3"
+    tools:context="com.google.android.gms.samples.vision.barcodereader.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:titleTextColor="@color/white"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme">
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/barcode_header"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/status_message"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:layout_marginTop="75dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/barcode_value"
+            android:text="@string/expectedUrl"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_below="@+id/status_message"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="110dp"
+            android:layout_alignEnd="@+id/status_message" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/read_barcode"
+            android:id="@+id/read_barcode"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:id="@+id/valueQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/barcode_value"
+            android:layout_centerInParent="true"
+            android:text="GET DEATILS"
+            />
+        <ImageView
+            android:id="@+id/qrImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/valueQR"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/favicon_min3"
+            android:contentDescription="qr"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/auto_focus"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:id="@+id/auto_focus"
+            android:layout_above="@+id/read_barcode"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="77dp"
+            android:layout_marginStart="20dp"
+            android:checked="false" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/use_flash"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:id="@+id/use_flash"
+            android:layout_alignTop="@+id/auto_focus"
+            android:layout_alignEnd="@+id/barcode_value"
+            android:layout_marginEnd="20dp"
+            android:checked="false" />
+    </RelativeLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/nav_view"
+        app:headerLayout="@layout/nav_header"/>
+</android.support.v4.widget.DrawerLayout>
