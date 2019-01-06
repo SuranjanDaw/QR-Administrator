@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="qrGetData">http://admin.mindwebs.org/scripts/qrGetData.php</string>
-    <string name="payA">http://admin.mindwebs.org/scripts/payA.php</string>
-    <string name="attendA">http://admin.mindwebs.org/scripts/attendA.php</string>
-    <string name="loginUrl">http://admin.mindwebs.org/scripts/loginAndroid.php</string>
-    <string name="API_KEY">mwAPI25Z23g29dT</string>
-</resources>
