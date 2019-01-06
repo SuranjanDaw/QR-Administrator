@@ -7,6 +7,7 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -21,7 +22,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.util.InputMismatchException;
 
-public class MyAsyncTask extends AsyncTask<String[], Void, String> {
+public class MyAsyncTask extends AsyncTask<String[], Integer, String> {
     TextView details;
     String id;
     String payAmt;
@@ -30,6 +31,7 @@ public class MyAsyncTask extends AsyncTask<String[], Void, String> {
     String mode;
     String admin;
     Context getDetailsClass;
+    ProgressDialog progress;
     String API_KEY;
     MyAsyncTask(Context get,TextView det,String id,String pay,String mode,String admin, String url1,int MODE){
         getDetailsClass = get;
@@ -46,7 +48,17 @@ public class MyAsyncTask extends AsyncTask<String[], Void, String> {
     @Override
     protected void onPreExecute()
     {
+        progress = new ProgressDialog(getDetailsClass);
+        progress.setMessage("Downloading from server");
+        progress.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+        progress.setIndeterminate(true);
+        progress.setProgress(0);
+        progress.show();
+    }
 
+    @Override
+    public void onProgressUpdate(Integer... args){
+        progress.setProgress(args[0]);
     }
 
     @Override
@@ -62,6 +74,7 @@ public class MyAsyncTask extends AsyncTask<String[], Void, String> {
             switch (MODE)
             {
                 case 1:uriBuilder = Uri.parse(url).buildUpon()
+                        .appendQueryParameter("id",id)
                         .appendQueryParameter("key",API_KEY)
                         .build();
                     break;
@@ -88,35 +101,44 @@ public class MyAsyncTask extends AsyncTask<String[], Void, String> {
             InputStream input = httpURLConnection.getInputStream();
             BufferedReader br = new BufferedReader(new InputStreamReader(input));
             s1 = br.readLine();
+
+            publishProgress(100);//calls onProgressUpdate(Integer...)
+
             Log.d("aa","s1="+s1);
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         return s1;
     }
     @Override
     protected void onPostExecute(String s)
     {
+
         Log.d("aa","in Post"+s);
         super.onPostExecute(s);
         String res="No Data Found";
         try {
             res = "";
             String field[] = {
-                    "id", "event_code","ticket_code","name","email", "phone", "referral", "price", "registered", "days", "paid", "amount_paid", "p_admin",
-                    "qrCode", "attend", "attend2", "attend3", "attend4", "attend5", "a_admin", "remarks_online", "remarks_admin"};
+                    "ticket_code","name","email", "phone", "referral", "price", "registered", "days", "paid", "p_admin",
+                    "qrCode", "attend", "attend2", "a_admin"};
             JSONObject jsob = new JSONObject(s);
             for (String item: field) {
                 res += item + " :- ";
                 res += jsob.getString(item);
                 res += "\n";
+                if(item.equals("p_admin") && jsob.getString(item)!=null && MODE == getDetails.PAYMENT)
+                    Toast.makeText(getDetailsClass,"ALREADY PAID",Toast.LENGTH_LONG).show();
+                if(item.equals("a_admin") && jsob.getString(item)!=null && MODE == getDetails.ALLOW)
+                    Toast.makeText(getDetailsClass,"ALREADY ALLOWED",Toast.LENGTH_LONG).show();
             }
 
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+        progress.dismiss();
         details.setText(res);
     }
 }

@@ -33,8 +33,8 @@ public class LoginActivity extends AppCompatActivity {
     private EditText user;
     private EditText pass;
     Button submit;
-    Button goToInfo;
-    private TextView res;
+    //Button goToInfo;
+    //private TextView res;
     private TextView user_nav_header;
 
     private SharedPreferences sh;
@@ -140,22 +140,22 @@ public class LoginActivity extends AppCompatActivity {
 
         user = findViewById(R.id.txtUser);
         pass = findViewById(R.id.txtPass);
-        res = findViewById(R.id.result);
+        //res = findViewById(R.id.result);
         submit = findViewById(R.id.btnAuth);
-        goToInfo = findViewById(R.id.goToInfo);
+        //goToInfo = findViewById(R.id.goToInfo);
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 username = user.getText().toString();
                 password = pass.getText().toString();
-                loginAsyncTask = new LoginAsyncTask(LoginActivity.this,res,username,password,urlLogin);
+                loginAsyncTask = new LoginAsyncTask(LoginActivity.this,username,password,urlLogin);
                 loginAsyncTask.execute();
                 Log.d("aa","OudsideShared"+urlLogin);
 
             }
         });
-        goToInfo.setOnClickListener(new View.OnClickListener() {
+        /*goToInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //SharedPreferences sh = getSharedPreferences("loginData",Context.MODE_PRIVATE);
@@ -175,7 +175,7 @@ public class LoginActivity extends AppCompatActivity {
                     res.setText("You Have to Login First");
                 }
             }
-        });
+        });*/
 
     }
 

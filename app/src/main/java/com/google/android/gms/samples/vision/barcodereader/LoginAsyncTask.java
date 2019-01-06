@@ -1,11 +1,14 @@
 package com.google.android.gms.samples.vision.barcodereader;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.provider.ContactsContract;
 import android.util.Log;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONObject;
 
@@ -25,15 +28,15 @@ import javax.net.ssl.HttpsURLConnection;
 public class LoginAsyncTask extends AsyncTask<String[], Void, String> {
     private String user,pass,url,name;
     public String flag="%jjvv@#";
-    TextView res;
+    //TextView res;
     Context context;
-    LoginAsyncTask(Context context,TextView res,String user, String pass, String url)
+    LoginAsyncTask(Context context,String user, String pass, String url)
     {
         this.context = context;
         this.user = user;
         this.pass = pass;
         this.url = url;
-        this.res = res;
+        //this.res = res;
     }
 
     @Override
@@ -127,7 +130,8 @@ public class LoginAsyncTask extends AsyncTask<String[], Void, String> {
             {
                 flag ="SUCCESS";
                 Log.d("aa","//*"+flag);
-                res.setText(flag);
+                //res.setText(flag);
+
                 SharedPreferences sh = context.getSharedPreferences("loginData", Context.MODE_PRIVATE);
                 SharedPreferences.Editor edit = sh.edit();
                 edit.putString("username",user);
@@ -135,12 +139,26 @@ public class LoginAsyncTask extends AsyncTask<String[], Void, String> {
                 edit.putString("name",name);
                 edit.putString("LoginStatus",flag);
                 edit.apply();
+
+                Toast.makeText(context,"Login Successful",Toast.LENGTH_SHORT).show();
+                //wait(1000);
+                //Thread.sleep(5000);
+                Intent i = new Intent(context,MainActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                i.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                context.startActivity(i);
             }
             else
-                res.setText(login);
+            {
+                Log.d("aa","kk"+login);
+                //res.setText(login);
+            }
+
 
         }catch (Exception e)
         {
+            //res.setText(login);
+            Toast.makeText(context,"Login failed",Toast.LENGTH_SHORT).show();
             e.printStackTrace();
         }
     }

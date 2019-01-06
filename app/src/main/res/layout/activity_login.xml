@@ -86,7 +86,7 @@
             android:textAlignment="center"
             android:textColor="@android:color/holo_orange_dark"
             android:textSize="24sp"/>
-        <TextView
+        <!--<TextView
             android:id="@+id/result"
             android:layout_width="368dp"
             android:layout_height="45dp"
@@ -100,18 +100,14 @@
             android:textAlignment="center"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="272dp"
-            android:background="@layout/rounded_border_edittext"/>
-        <Button
-            android:id="@+id/goToInfo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Go to info"/>
+            android:background="@layout/rounded_border_edittext"/>-->
+
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="25dp"
             android:text="Developed By MinD Webs Team"
             android:textAlignment="center"
             android:fontFamily="cursive"

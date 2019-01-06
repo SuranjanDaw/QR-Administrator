@@ -11,22 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:hint="Your ID IS"/>
-    <Button
-        android:id="@+id/detailsbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SEE DETAILS"/>
-    <Button
-        android:id="@+id/paybutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PAY"/>
-    <Button
-        android:id="@+id/allow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ALLOW ENTRY"/>
+        android:hint="Your ID IS:"/>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -42,4 +27,21 @@
                 android:text="It will come here"/>
         </LinearLayout>
     </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/paybutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PAY"/>
+        <Button
+            android:id="@+id/allow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ALLOW ENTRY"/>
+    </LinearLayout>
 </LinearLayout>

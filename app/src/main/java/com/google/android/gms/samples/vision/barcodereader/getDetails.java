@@ -15,10 +15,8 @@ import android.widget.Toast;
 public class getDetails extends AppCompatActivity {
     TextView res;
     TextView idtext;
-    EditText payAmttext;
-    Button details;
     Button payButton;
-    Button allowButton;
+    Button allowButton1;
 
     String urlDetails;
     String urlPayment;
@@ -31,8 +29,8 @@ public class getDetails extends AppCompatActivity {
     private static String id;
 
     private final static int DETAILS = 1;
-    private final static int PAYMENT= 2;
-    private final static int ALLOW = 3;
+    public static final int PAYMENT= 2;
+    public final static int ALLOW = 3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,12 +67,12 @@ public class getDetails extends AppCompatActivity {
             String s = "Ticket ID :" + id;
             idtext.setText(s);
             //payAmttext = findViewById(R.id.payment);
-
-            details = findViewById(R.id.detailsbutton);
             payButton = findViewById(R.id.paybutton);
-            allowButton = findViewById(R.id.allow);
+            allowButton1 = findViewById(R.id.allow1);
 
-            allowButton.setOnClickListener(new View.OnClickListener() {
+            details();//calling for details when intent opens the activity
+
+            allowButton1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     //id = url.substring(url.length()-10);
@@ -92,18 +90,15 @@ public class getDetails extends AppCompatActivity {
                 }
             });
 
-
-            details.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    //id = idtext.getText().toString();
-                    Log.d("aa", id);
-                    MyAsyncTask myAsyncTask = new MyAsyncTask(getDetails.this,res, "", "", "", "", url, DETAILS);
-                    myAsyncTask.execute();
-                }
-            });
         }
 
 
+
     }
+    private void details() {
+        Log.d("aa", id);
+        MyAsyncTask myAsyncTask = new MyAsyncTask(getDetails.this,res, id, "", "", "", urlDetails, DETAILS);
+        myAsyncTask.execute();
+    }
+
 }

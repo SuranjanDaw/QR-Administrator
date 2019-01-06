@@ -28,6 +28,7 @@
         android:icon="@drawable/favicon_min3"
         android:label="Techtronista 2K19"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.Design.Light.NoActionBar" >
         <meta-data
             android:name="com.google.android.gms.version"

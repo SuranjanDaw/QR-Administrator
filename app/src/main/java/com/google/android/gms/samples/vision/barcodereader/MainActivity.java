@@ -34,6 +34,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -55,6 +56,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView statusMessage;
     private TextView barcodeValue;
     private TextView user_nav_header;
+
+    private EditText ticketId;
     ImageView qrImage;
 
     Button getDetailsQR;
@@ -63,6 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public SharedPreferences sh;
 
     private static final int RC_BARCODE_CAPTURE = 9001;
+    private boolean flagQR = false;
     private static final String TAG = "BarcodeMain";
 
     DrawerLayout mDrawerLayout;
@@ -149,6 +153,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         statusMessage = (TextView)findViewById(R.id.status_message);
         barcodeValue = (TextView)findViewById(R.id.barcode_value);
+        ticketId = findViewById(R.id.ticketIdEdit);
 
 
         autoFocus = (CompoundButton) findViewById(R.id.auto_focus);
@@ -160,9 +165,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         getDetailsQR = findViewById(R.id.valueQR);
 
+
         qrImage = (ImageView) findViewById(R.id.qrImage);
 
-        String flag = sh.getString("LoginStatus","NULL");
+        final String flag = sh.getString("LoginStatus","NULL");
 
         user_nav_header.setText(sh.getString("name","NULL"));
 
@@ -179,6 +185,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Toast.makeText(this, "You are Logged In: To Log in with a different anccount: Please Log out first.",
                     Toast.LENGTH_LONG).show();
         }
+
+
+        getDetailsQR.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s;
+                if(flagQR){
+                    //Log.d("aa","xxx");
+                    s = qrValue;
+                }else if(!ticketId.getText().toString().equals("")) {
+                    //Log.d("aa","xxp");
+                    s = ticketId.getText().toString();
+                }else{
+                    //Log.d("aa","xxi");
+                    Toast.makeText(MainActivity.this,"Scan a QR code or Enter ticket ID",Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                Intent i = new Intent(MainActivity.this, getDetails.class);
+                i.putExtra("qrValue",s);
+                startActivity(i);
+                flagQR = false;
+            }
+        }
+        );
     }
 
     @Override
@@ -253,15 +283,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     String barString = "ID :- "+barcode.displayValue.substring(barcode.displayValue.length()-10);
                     barcodeValue.setText(barString);
                     qrValue = barcode.displayValue;
-                    getDetailsQR.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                Intent i = new Intent(MainActivity.this, getDetails.class);
-                                i.putExtra("qrValue",qrValue);
-                                startActivity(i);
-                            }
-                        }
-                    );
+                    flagQR = true;
                     Log.d(TAG, "Barcode read: " + barcode.displayValue);
 
                 } else {
