@@ -191,15 +191,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View v) {
                 String s;
-                if(flagQR){
+                if(flagQR && qrValue.length()==10){
                     //Log.d("aa","xxx");
                     s = qrValue;
-                }else if(!ticketId.getText().toString().equals("")) {
+                }else if(!ticketId.getText().toString().equals("") && ticketId.getText().toString().length()==10) {
                     //Log.d("aa","xxp");
                     s = ticketId.getText().toString();
                 }else{
                     //Log.d("aa","xxi");
-                    Toast.makeText(MainActivity.this,"Scan a QR code or Enter ticket ID",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,"Scan a QR code or Enter ticket ID or Wrong ID",Toast.LENGTH_SHORT).show();
                     return;
                 }
                 Intent i = new Intent(MainActivity.this, getDetails.class);

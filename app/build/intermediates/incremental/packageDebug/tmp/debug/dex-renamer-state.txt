@@ -1,4 +1,4 @@
-#Sun Jan 06 22:05:04 IST 2019
+#Mon Jan 14 02:35:48 IST 2019
 base.0=/media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

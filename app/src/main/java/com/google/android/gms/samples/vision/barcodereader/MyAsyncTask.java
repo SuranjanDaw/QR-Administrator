@@ -136,6 +136,8 @@ public class MyAsyncTask extends AsyncTask<String[], Integer, String> {
 
 
         } catch (Exception e) {
+            if(s.equalsIgnoreCase("NO DATA FOUND") || s.equalsIgnoreCase("null"))
+                Toast.makeText(getDetailsClass,"Invalid ID",Toast.LENGTH_SHORT).show();
             e.printStackTrace();
         }
         progress.dismiss();

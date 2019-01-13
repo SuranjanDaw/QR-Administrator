@@ -67,21 +67,6 @@
                     }
                 },
                 {
-                    "source": "/media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/res/values/url_API.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "811,844,875,884,889",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "66201,68637,71941,73155,73559",
-                        "endColumns": "51,81,87,75,85",
-                        "endOffsets": "66248,68714,72024,73226,73640"
-                    }
-                },
-                {
                     "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/872138ccc84ee51fba4b1557040b4104/res/values/values.xml",
                     "from": {
                         "startLines": "-1,-1,-1,-1,-1,-1,-1",
@@ -158,6 +143,23 @@
                     }
                 },
                 {
+                    "source": "/media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/res/values/url.xml",
+                    "from": {
+                        "startLines": "-1,-1,5,-1,-1",
+                        "startColumns": "-1,-1,4,-1,-1",
+                        "startOffsets": "-1,-1,299,-1,-1",
+                        "endColumns": "-1,-1,87,-1,-1",
+                        "endOffsets": "-1,-1,382,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "811,844,875,884,889",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "66201,68637,71941,73155,73559",
+                        "endColumns": "51,81,87,75,85",
+                        "endOffsets": "66248,68714,72024,73226,73640"
+                    }
+                },
+                {
                     "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5ae80462bda15affaad82c6c4402a5e9/res/values/values.xml",
                     "from": {
                         "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
@@ -206,11 +208,9 @@
                 {
                     "source": "/media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "4,-1,-1",
-                        "startColumns": "4,-1,-1",
-                        "startOffsets": "136,-1,-1",
-                        "endColumns": "42,-1,-1",
-                        "endOffsets": "174,-1,-1"
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
                     },
                     "to": {
                         "startLines": "136,147,217",
