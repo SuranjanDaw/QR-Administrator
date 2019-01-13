@@ -23,17 +23,17 @@ import java.net.URLEncoder;
 import java.util.InputMismatchException;
 
 public class MyAsyncTask extends AsyncTask<String[], Integer, String> {
-    TextView details;
+    private TextView[] details;
     String id;
-    String payAmt;
-    String url;
-    int MODE;
-    String mode;
-    String admin;
+    private String payAmt;
+    private String url;
+    private int MODE;
+    private String mode;
+    private String admin;
     Context getDetailsClass;
-    ProgressDialog progress;
+    private ProgressDialog progress;
     String API_KEY;
-    MyAsyncTask(Context get,TextView det,String id,String pay,String mode,String admin, String url1,int MODE){
+    MyAsyncTask(Context get,TextView[] det,String id,String pay,String mode,String admin, String url1,int MODE){
         getDetailsClass = get;
         details = det;
         this.id = id;
@@ -120,14 +120,32 @@ public class MyAsyncTask extends AsyncTask<String[], Integer, String> {
         String res="No Data Found";
         try {
             res = "";
-            String field[] = {
-                    "ticket_code","name","email", "phone", "referral", "price", "registered", "days", "paid", "p_admin",
-                    "qrCode", "attend", "attend2", "a_admin"};
+            String field[] = {"ticket_code","name","email", "phone", "price", "registered", "paid", "p_admin", "attend", "a_admin"};
             JSONObject jsob = new JSONObject(s);
             for (String item: field) {
-                res += item + " :- ";
-                res += jsob.getString(item);
-                res += "\n";
+                switch (item)
+                {
+                    case "ticket_code":
+                        details[0].setText(jsob.getString(item)); break;
+                    case "name":
+                        details[1].setText(jsob.getString(item)); break;
+                    case "email":
+                        details[2].setText(jsob.getString(item)); break;
+                    case "phone":
+                        details[3].setText(jsob.getString(item)); break;
+                    case "price":
+                        details[4].setText(jsob.getString(item)); break;
+                    case "registered":
+                        details[5].setText(jsob.getString(item)); break;
+                    case "paid":
+                        details[6].setText(jsob.getString(item)); break;
+                    case "p_admin":
+                        details[7].setText(jsob.getString(item)); break;
+                    case "attend":
+                        details[8].setText(jsob.getString(item)); break;
+                    case "a_admin":
+                        details[9].setText(jsob.getString(item)); break;
+                }
                 if(item.equals("p_admin") && jsob.getString(item)!=null && MODE == getDetails.PAYMENT)
                     Toast.makeText(getDetailsClass,"ALREADY PAID",Toast.LENGTH_LONG).show();
                 if(item.equals("a_admin") && jsob.getString(item)!=null && MODE == getDetails.ALLOW)
@@ -141,6 +159,6 @@ public class MyAsyncTask extends AsyncTask<String[], Integer, String> {
             e.printStackTrace();
         }
         progress.dismiss();
-        details.setText(res);
+        //details.setText(res);
     }
 }

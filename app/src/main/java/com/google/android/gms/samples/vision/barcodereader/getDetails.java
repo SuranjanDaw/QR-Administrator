@@ -13,7 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class getDetails extends AppCompatActivity {
-    TextView res;
+    TextView[] res;
     TextView idtext;
     Button payButton;
     Button allowButton1;
@@ -61,7 +61,16 @@ public class getDetails extends AppCompatActivity {
             i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(i);
         }else {
-            res = findViewById(R.id.resDetails);
+            int count = 1;
+            res = new TextView[10];
+            res[9] = findViewById(R.id.t10);
+            res[0] = findViewById(R.id.t1);
+            while (count<9)
+            {
+                res[count] = findViewById(R.id.t1+count+1);
+                count++;
+            }
+
 
             idtext = findViewById(R.id.ID);
             String s = "Ticket ID :" + id;
