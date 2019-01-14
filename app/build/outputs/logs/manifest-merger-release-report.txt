@@ -1,0 +1,222 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
+MERGED from [com.android.support:design:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/452dcd2ca055a1c64c326516bb69fdf9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e6bf605cdff63666151ba0ea006af65b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/01f9ff7795a37d7a74074d9bf4420ebe/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5ae80462bda15affaad82c6c4402a5e9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/85318c89235b0a6a5160a6be18c37e5a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/041601d2bd19e0fd1745aba84189f95a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/24d57d0dedaec58bb55b691a928cc93c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/9b09a190f5ef5036b933e42b97f41f73/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4689fb5fd0ec8ac6d3b800567e49d1ff/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/26c2d95d067f7281e779b1a4320c2c85/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6557d06d19f2146895e7f148018a3cb4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c59f37ac3e83b923bb796bc7139a2fe8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/872138ccc84ee51fba4b1557040b4104/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/057d3a7a6a9fab2397f56ae004f2903f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f0745dc9a96fc4d31df9c9649e7f2ba4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/254d9c9a5f04ba2c0977885487759bab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/e1acae2759918ea090439928edfe4396/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/74f2b483c144bab34697c5ad99155843/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7448171dcb0a69a5cf5a5e5aa009330/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4ec51dcc35d2a3d53fd29df99fc78245/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46664992ba0bdb2a6eb8e8d62778fe03/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bcd8240f0be5091bdb26240de450cc81/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5b6c60faf56606897cef68d54337b4bf/AndroidManifest.xml:17:1-22:12
+INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:3:5-66
+		INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+		INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
+		INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
+		INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:4:5-35
+uses-permission#android.permission.INTERNET
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:6:22-64
+uses-feature#android.hardware.camera
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:8:5-60
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:8:19-57
+uses-permission#android.permission.CAMERA
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:10:22-62
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:13:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:14:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:15:5-72
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:15:22-69
+application
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:16:5-49:19
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/01f9ff7795a37d7a74074d9bf4420ebe/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/01f9ff7795a37d7a74074d9bf4420ebe/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5ae80462bda15affaad82c6c4402a5e9/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5ae80462bda15affaad82c6c4402a5e9/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/85318c89235b0a6a5160a6be18c37e5a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/85318c89235b0a6a5160a6be18c37e5a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/041601d2bd19e0fd1745aba84189f95a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/041601d2bd19e0fd1745aba84189f95a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/9b09a190f5ef5036b933e42b97f41f73/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/9b09a190f5ef5036b933e42b97f41f73/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4689fb5fd0ec8ac6d3b800567e49d1ff/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4689fb5fd0ec8ac6d3b800567e49d1ff/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:22:5-26:19
+	android:supportsRtl
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:21:9-42
+	android:hardwareAccelerated
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:19:9-43
+	android:fullBackupContent
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:18:9-42
+	android:icon
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:20:9-46
+	android:allowBackup
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:23:9-62
+meta-data#com.google.android.gms.version
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:24:9-26:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:26:13-66
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:25:13-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:27:9-29:39
+	android:value
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:28:13-70
+activity#com.google.android.gms.samples.vision.barcodereader.MainActivity
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:31:9-40:20
+	android:label
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:32:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:37:27-74
+activity#com.google.android.gms.samples.vision.barcodereader.LoginActivity
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:41:9-44:20
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:41:19-48
+activity#com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:45:9-47:44
+	android:label
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:47:13-41
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:46:13-51
+activity#com.google.android.gms.samples.vision.barcodereader.getDetails
+ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:48:9-48
+	android:name
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:48:19-45
+uses-sdk
+INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/452dcd2ca055a1c64c326516bb69fdf9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/452dcd2ca055a1c64c326516bb69fdf9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e6bf605cdff63666151ba0ea006af65b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e6bf605cdff63666151ba0ea006af65b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/01f9ff7795a37d7a74074d9bf4420ebe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/01f9ff7795a37d7a74074d9bf4420ebe/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5ae80462bda15affaad82c6c4402a5e9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5ae80462bda15affaad82c6c4402a5e9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/85318c89235b0a6a5160a6be18c37e5a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/85318c89235b0a6a5160a6be18c37e5a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/041601d2bd19e0fd1745aba84189f95a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/041601d2bd19e0fd1745aba84189f95a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/24d57d0dedaec58bb55b691a928cc93c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/24d57d0dedaec58bb55b691a928cc93c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/9b09a190f5ef5036b933e42b97f41f73/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/9b09a190f5ef5036b933e42b97f41f73/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4689fb5fd0ec8ac6d3b800567e49d1ff/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4689fb5fd0ec8ac6d3b800567e49d1ff/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/26c2d95d067f7281e779b1a4320c2c85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/26c2d95d067f7281e779b1a4320c2c85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6557d06d19f2146895e7f148018a3cb4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6557d06d19f2146895e7f148018a3cb4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c59f37ac3e83b923bb796bc7139a2fe8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c59f37ac3e83b923bb796bc7139a2fe8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/872138ccc84ee51fba4b1557040b4104/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/872138ccc84ee51fba4b1557040b4104/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/057d3a7a6a9fab2397f56ae004f2903f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/057d3a7a6a9fab2397f56ae004f2903f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f0745dc9a96fc4d31df9c9649e7f2ba4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f0745dc9a96fc4d31df9c9649e7f2ba4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/254d9c9a5f04ba2c0977885487759bab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/254d9c9a5f04ba2c0977885487759bab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/e1acae2759918ea090439928edfe4396/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/e1acae2759918ea090439928edfe4396/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/74f2b483c144bab34697c5ad99155843/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/74f2b483c144bab34697c5ad99155843/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7448171dcb0a69a5cf5a5e5aa009330/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7448171dcb0a69a5cf5a5e5aa009330/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4ec51dcc35d2a3d53fd29df99fc78245/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4ec51dcc35d2a3d53fd29df99fc78245/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46664992ba0bdb2a6eb8e8d62778fe03/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46664992ba0bdb2a6eb8e8d62778fe03/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bcd8240f0be5091bdb26240de450cc81/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bcd8240f0be5091bdb26240de450cc81/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5b6c60faf56606897cef68d54337b4bf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5b6c60faf56606897cef68d54337b4bf/AndroidManifest.xml:20:5-44
+INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+		INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+		INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:24:13-79

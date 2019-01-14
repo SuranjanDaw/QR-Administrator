@@ -191,7 +191,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View v) {
                 String s;
-                if(flagQR && qrValue.length()==10){
+                String user = sh.getString("username","NULL");
+                if(flagQR && qrValue.substring(qrValue.length()-10).length()==10){
                     //Log.d("aa","xxx");
                     s = qrValue;
                 }else if(!ticketId.getText().toString().equals("") && ticketId.getText().toString().length()==10) {
@@ -202,10 +203,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     Toast.makeText(MainActivity.this,"Scan a QR code or Enter ticket ID or Wrong ID",Toast.LENGTH_SHORT).show();
                     return;
                 }
-                Intent i = new Intent(MainActivity.this, getDetails.class);
-                i.putExtra("qrValue",s);
-                startActivity(i);
-                flagQR = false;
+                if(!user.equals("NULL"))
+                {
+                    Intent i = new Intent(MainActivity.this, getDetails.class);
+                    i.putExtra("qrValue",s);
+                    startActivity(i);
+                    flagQR = false;
+                    barcodeValue.setText(R.string.expectedUrl);
+                }else Toast.makeText(MainActivity.this,"Login First",Toast.LENGTH_SHORT).show();
+
             }
         }
         );
@@ -230,6 +236,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
     @Override
     public void onClick(View v) {
+
         boolean flag = sh.getString("LoginStatus","NULL").equalsIgnoreCase("SUCCESS");
         if (v.getId() == R.id.read_barcode && flag) {
             // launch barcode activity.
@@ -282,6 +289,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     statusMessage.setText(R.string.barcode_success);
                     String barString = "ID :- "+barcode.displayValue.substring(barcode.displayValue.length()-10);
                     barcodeValue.setText(barString);
+                    ticketId.setText(barcode.displayValue.substring(barcode.displayValue.length()-10));
                     qrValue = barcode.displayValue;
                     flagQR = true;
                     Log.d(TAG, "Barcode read: " + barcode.displayValue);
