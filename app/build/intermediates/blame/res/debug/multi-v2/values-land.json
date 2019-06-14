@@ -4,7 +4,7 @@
             "outputFile": "/media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/452dcd2ca055a1c64c326516bb69fdf9/res/values-land/values-land.xml",
+                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fb268980ec5cd81cf9a1688b1e353669/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e6bf605cdff63666151ba0ea006af65b/res/values-land/values-land.xml",
+                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/999ea4de179831284b1fa47cbb919296/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -4,31 +4,31 @@ ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/
 INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
 INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
 INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
-MERGED from [com.android.support:design:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/452dcd2ca055a1c64c326516bb69fdf9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e6bf605cdff63666151ba0ea006af65b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/01f9ff7795a37d7a74074d9bf4420ebe/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5ae80462bda15affaad82c6c4402a5e9/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/85318c89235b0a6a5160a6be18c37e5a/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/041601d2bd19e0fd1745aba84189f95a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/24d57d0dedaec58bb55b691a928cc93c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/9b09a190f5ef5036b933e42b97f41f73/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4689fb5fd0ec8ac6d3b800567e49d1ff/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/26c2d95d067f7281e779b1a4320c2c85/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6557d06d19f2146895e7f148018a3cb4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c59f37ac3e83b923bb796bc7139a2fe8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/872138ccc84ee51fba4b1557040b4104/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/057d3a7a6a9fab2397f56ae004f2903f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f0745dc9a96fc4d31df9c9649e7f2ba4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/254d9c9a5f04ba2c0977885487759bab/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/e1acae2759918ea090439928edfe4396/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/74f2b483c144bab34697c5ad99155843/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7448171dcb0a69a5cf5a5e5aa009330/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4ec51dcc35d2a3d53fd29df99fc78245/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46664992ba0bdb2a6eb8e8d62778fe03/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bcd8240f0be5091bdb26240de450cc81/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5b6c60faf56606897cef68d54337b4bf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fb268980ec5cd81cf9a1688b1e353669/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/999ea4de179831284b1fa47cbb919296/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/082898326a1547028c04470cef3bf1b4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bb524818375975da19292b21d916d55b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/d1f55a9e05c7c6a5841feadb7571223a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/c4124d3236dee2d652f91db18c6c7076/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/07bae68726d5d82a84aaade079971e4c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/55d895443cb1aa3045ff1abc45b6dc37/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/90aa0ab51ef32142ca0d11c09a37cf38/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/2170f9567b0bdf5c21fabd83b7e95ad2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/79d05d45def049e0dc302d41cf16f9a0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7f10277e921c802aed8267d1dff95512/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/fb68b6d74ed3e68c145254aaae327734/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/6950c7bc0f3a8964e36014218b681b8a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/df3fd077c8ca36ac94f3cc4907a4251d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1fa7f16890effcfe92cc4b4020d04767/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6c509fd2417643ec5d750f8d5fb81067/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/37f4a76b9e349fe3871b18da3ce53db2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/433b7d1a7173bc5281b6f04930e4590d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/248ad498b89e830938375291cea36b91/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1e7a7b3cdf6156bb002f45af49ed1b5f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dd3609a55d5577fe4ba7a4c9bbdca602/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bf60e8c19aeb720dce8da857fd5f8d51/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/29deb42f7dce60f65272c16ef6a49750/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/14e3bb48c62b33ef49718e1e3346fc08/AndroidManifest.xml:17:1-22:12
 INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
 INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
 INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:2:1-51:12
@@ -74,22 +74,22 @@ ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/
 		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:15:22-69
 application
 ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:16:5-49:19
-MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/01f9ff7795a37d7a74074d9bf4420ebe/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/01f9ff7795a37d7a74074d9bf4420ebe/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5ae80462bda15affaad82c6c4402a5e9/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5ae80462bda15affaad82c6c4402a5e9/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/85318c89235b0a6a5160a6be18c37e5a/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/85318c89235b0a6a5160a6be18c37e5a/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/041601d2bd19e0fd1745aba84189f95a/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/041601d2bd19e0fd1745aba84189f95a/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/9b09a190f5ef5036b933e42b97f41f73/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/9b09a190f5ef5036b933e42b97f41f73/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4689fb5fd0ec8ac6d3b800567e49d1ff/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4689fb5fd0ec8ac6d3b800567e49d1ff/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/082898326a1547028c04470cef3bf1b4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/082898326a1547028c04470cef3bf1b4/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bb524818375975da19292b21d916d55b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bb524818375975da19292b21d916d55b/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/d1f55a9e05c7c6a5841feadb7571223a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/d1f55a9e05c7c6a5841feadb7571223a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/c4124d3236dee2d652f91db18c6c7076/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/c4124d3236dee2d652f91db18c6c7076/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/55d895443cb1aa3045ff1abc45b6dc37/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/55d895443cb1aa3045ff1abc45b6dc37/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/90aa0ab51ef32142ca0d11c09a37cf38/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/90aa0ab51ef32142ca0d11c09a37cf38/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/2170f9567b0bdf5c21fabd83b7e95ad2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/2170f9567b0bdf5c21fabd83b7e95ad2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/79d05d45def049e0dc302d41cf16f9a0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/79d05d45def049e0dc302d41cf16f9a0/AndroidManifest.xml:22:5-26:19
 	android:supportsRtl
 		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:22:9-35
 	android:label
@@ -106,8 +106,8 @@ MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranja
 		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:23:9-62
 meta-data#com.google.android.gms.version
 ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:24:9-26:69
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:23:9-25:69
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/79d05d45def049e0dc302d41cf16f9a0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/79d05d45def049e0dc302d41cf16f9a0/AndroidManifest.xml:23:9-25:69
 	android:value
 		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml:26:13-66
 	android:name
@@ -152,56 +152,56 @@ uses-sdk
 INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
 INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/452dcd2ca055a1c64c326516bb69fdf9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/452dcd2ca055a1c64c326516bb69fdf9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e6bf605cdff63666151ba0ea006af65b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e6bf605cdff63666151ba0ea006af65b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/01f9ff7795a37d7a74074d9bf4420ebe/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/01f9ff7795a37d7a74074d9bf4420ebe/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5ae80462bda15affaad82c6c4402a5e9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5ae80462bda15affaad82c6c4402a5e9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/85318c89235b0a6a5160a6be18c37e5a/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/85318c89235b0a6a5160a6be18c37e5a/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/041601d2bd19e0fd1745aba84189f95a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/041601d2bd19e0fd1745aba84189f95a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/24d57d0dedaec58bb55b691a928cc93c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/24d57d0dedaec58bb55b691a928cc93c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/9b09a190f5ef5036b933e42b97f41f73/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/9b09a190f5ef5036b933e42b97f41f73/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4689fb5fd0ec8ac6d3b800567e49d1ff/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/4689fb5fd0ec8ac6d3b800567e49d1ff/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/26c2d95d067f7281e779b1a4320c2c85/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/26c2d95d067f7281e779b1a4320c2c85/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6557d06d19f2146895e7f148018a3cb4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6557d06d19f2146895e7f148018a3cb4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c59f37ac3e83b923bb796bc7139a2fe8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c59f37ac3e83b923bb796bc7139a2fe8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/872138ccc84ee51fba4b1557040b4104/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/872138ccc84ee51fba4b1557040b4104/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/057d3a7a6a9fab2397f56ae004f2903f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/057d3a7a6a9fab2397f56ae004f2903f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f0745dc9a96fc4d31df9c9649e7f2ba4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f0745dc9a96fc4d31df9c9649e7f2ba4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/254d9c9a5f04ba2c0977885487759bab/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/254d9c9a5f04ba2c0977885487759bab/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/e1acae2759918ea090439928edfe4396/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/e1acae2759918ea090439928edfe4396/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/74f2b483c144bab34697c5ad99155843/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/74f2b483c144bab34697c5ad99155843/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7448171dcb0a69a5cf5a5e5aa009330/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7448171dcb0a69a5cf5a5e5aa009330/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4ec51dcc35d2a3d53fd29df99fc78245/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4ec51dcc35d2a3d53fd29df99fc78245/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46664992ba0bdb2a6eb8e8d62778fe03/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46664992ba0bdb2a6eb8e8d62778fe03/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bcd8240f0be5091bdb26240de450cc81/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bcd8240f0be5091bdb26240de450cc81/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5b6c60faf56606897cef68d54337b4bf/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5b6c60faf56606897cef68d54337b4bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fb268980ec5cd81cf9a1688b1e353669/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fb268980ec5cd81cf9a1688b1e353669/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/999ea4de179831284b1fa47cbb919296/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/999ea4de179831284b1fa47cbb919296/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/082898326a1547028c04470cef3bf1b4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/082898326a1547028c04470cef3bf1b4/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bb524818375975da19292b21d916d55b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/suranjan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bb524818375975da19292b21d916d55b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/d1f55a9e05c7c6a5841feadb7571223a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-17.0.2.aar/d1f55a9e05c7c6a5841feadb7571223a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/c4124d3236dee2d652f91db18c6c7076/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-16.0.0.aar/c4124d3236dee2d652f91db18c6c7076/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/07bae68726d5d82a84aaade079971e4c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/07bae68726d5d82a84aaade079971e4c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/55d895443cb1aa3045ff1abc45b6dc37/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-16.0.0.aar/55d895443cb1aa3045ff1abc45b6dc37/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/90aa0ab51ef32142ca0d11c09a37cf38/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/90aa0ab51ef32142ca0d11c09a37cf38/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/2170f9567b0bdf5c21fabd83b7e95ad2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/2170f9567b0bdf5c21fabd83b7e95ad2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/79d05d45def049e0dc302d41cf16f9a0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/79d05d45def049e0dc302d41cf16f9a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7f10277e921c802aed8267d1dff95512/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7f10277e921c802aed8267d1dff95512/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/fb68b6d74ed3e68c145254aaae327734/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/fb68b6d74ed3e68c145254aaae327734/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/6950c7bc0f3a8964e36014218b681b8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/6950c7bc0f3a8964e36014218b681b8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/df3fd077c8ca36ac94f3cc4907a4251d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/df3fd077c8ca36ac94f3cc4907a4251d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1fa7f16890effcfe92cc4b4020d04767/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1fa7f16890effcfe92cc4b4020d04767/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6c509fd2417643ec5d750f8d5fb81067/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6c509fd2417643ec5d750f8d5fb81067/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/37f4a76b9e349fe3871b18da3ce53db2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/37f4a76b9e349fe3871b18da3ce53db2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/433b7d1a7173bc5281b6f04930e4590d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/433b7d1a7173bc5281b6f04930e4590d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/248ad498b89e830938375291cea36b91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/248ad498b89e830938375291cea36b91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1e7a7b3cdf6156bb002f45af49ed1b5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1e7a7b3cdf6156bb002f45af49ed1b5f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dd3609a55d5577fe4ba7a4c9bbdca602/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dd3609a55d5577fe4ba7a4c9bbdca602/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bf60e8c19aeb720dce8da857fd5f8d51/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/bf60e8c19aeb720dce8da857fd5f8d51/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/29deb42f7dce60f65272c16ef6a49750/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/29deb42f7dce60f65272c16ef6a49750/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/14e3bb48c62b33ef49718e1e3346fc08/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/suranjan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/14e3bb48c62b33ef49718e1e3346fc08/AndroidManifest.xml:20:5-44
 INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
 INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -213,10 +213,10 @@ INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projec
 		ADDED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
 		INJECTED from /media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/src/main/AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/90aa0ab51ef32142ca0d11c09a37cf38/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/90aa0ab51ef32142ca0d11c09a37cf38/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/90aa0ab51ef32142ca0d11c09a37cf38/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/90aa0ab51ef32142ca0d11c09a37cf38/AndroidManifest.xml:24:13-79

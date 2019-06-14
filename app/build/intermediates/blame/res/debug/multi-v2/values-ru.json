@@ -4,24 +4,7 @@
             "outputFile": "/media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml",
             "map": [
                 {
-                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e6bf605cdff63666151ba0ea006af65b/res/values-ru/values-ru.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,220,322,434,520,625,745,824,902,982,1088,1196,1294,1403,1509,1617,1792,1892",
-                        "endColumns": "114,101,111,85,104,119,78,77,79,105,107,97,108,105,107,174,99,80",
-                        "endOffsets": "215,317,429,515,620,740,819,897,977,1083,1191,1289,1398,1504,1612,1787,1887,1968"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,37",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,220,322,434,520,625,745,824,902,982,1088,1196,1294,1403,1509,1617,1792,4654",
-                        "endColumns": "114,101,111,85,104,119,78,77,79,105,107,97,108,105,107,174,99,80",
-                        "endOffsets": "215,317,429,515,620,740,819,897,977,1083,1191,1289,1398,1504,1612,1787,1887,4730"
-                    }
-                },
-                {
-                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f6baeac9e881c19dfb30ad4b050903ee/res/values-ru/values.xml",
+                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/90aa0ab51ef32142ca0d11c09a37cf38/res/values-ru/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/0981757bc765f0dfe18da5af3132d4d3/res/values-ru/values.xml",
+                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/79d05d45def049e0dc302d41cf16f9a0/res/values-ru/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f7448171dcb0a69a5cf5a5e5aa009330/res/values-ru/values-ru.xml",
+                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/999ea4de179831284b1fa47cbb919296/res/values-ru/values-ru.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,220,322,434,520,625,745,824,902,982,1088,1196,1294,1403,1509,1617,1792,1892",
+                        "endColumns": "114,101,111,85,104,119,78,77,79,105,107,97,108,105,107,174,99,80",
+                        "endOffsets": "215,317,429,515,620,740,819,897,977,1083,1191,1289,1398,1504,1612,1787,1887,1968"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,220,322,434,520,625,745,824,902,982,1088,1196,1294,1403,1509,1617,1792,4654",
+                        "endColumns": "114,101,111,85,104,119,78,77,79,105,107,97,108,105,107,174,99,80",
+                        "endOffsets": "215,317,429,515,620,740,819,897,977,1083,1191,1289,1398,1504,1612,1787,1887,4730"
+                    }
+                },
+                {
+                    "source": "/home/suranjan/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1e7a7b3cdf6156bb002f45af49ed1b5f/res/values-ru/values-ru.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

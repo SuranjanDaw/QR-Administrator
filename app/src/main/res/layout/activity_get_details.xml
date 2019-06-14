@@ -36,7 +36,7 @@
                     android:layout_below="@+id/ticketTag"
                     android:layout_marginLeft="10sp"
                     android:fontFamily="serif"
-                    android:text=""
+                    android:text="t1"
                     android:textColor="@color/blue"
                     android:textSize="25dp"
                     android:textStyle="bold" />
@@ -58,7 +58,7 @@
                     android:layout_below="@+id/nameTag"
                     android:layout_marginLeft="10sp"
                     android:fontFamily="serif"
-                    android:text=""
+                    android:text="t2"
                     android:textAllCaps="false"
                     android:textColor="@color/blue"
                     android:textSize="25dp"
@@ -248,23 +248,47 @@
                     android:textSize="25dp"
                     android:textStyle="bold" />
             </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/daysTag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8sp"
+                    android:text="Days:" />
+
+                <TextView
+                    android:id="@+id/t11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/daysTag"
+                    android:layout_marginLeft="10sp"
+                    android:fontFamily="serif"
+                    android:text=""
+                    android:textColor="@color/blue"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/paybutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="PAY"/>
+                <Button
+                    android:id="@+id/allow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ALLOW ENTRY"/>
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/paybutton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="PAY"/>
-        <Button
-            android:id="@+id/allow1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ALLOW ENTRY"/>
-    </LinearLayout>
+
 </LinearLayout>

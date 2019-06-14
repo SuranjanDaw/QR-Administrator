@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jan 05 15:36:21 IST 2019
+#Fri Jun 14 14:20:50 IST 2019
 0.baseType=DIRECTORY
 0.base=/media/suranjan/Windows/Users/SuranjanDaw/Documents/Android Projects/MyCode/code/barcode-reader/app/build/intermediates/transforms/dexMerger/debug/0
 0.path=classes.dex

@@ -76,7 +76,7 @@
         <Button
             android:id="@+id/btnAuth"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="160dp"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"

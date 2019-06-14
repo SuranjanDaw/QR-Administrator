@@ -120,31 +120,49 @@ public class MyAsyncTask extends AsyncTask<String[], Integer, String> {
         String res="No Data Found";
         try {
             res = "";
-            String field[] = {"ticket_code","name","email", "phone", "price", "registered", "paid", "p_admin", "attend", "a_admin"};
+            String[] field = {"ticket_code", "name", "email", "phone", "price", "registered", "paid", "p_admin", "attend", "a_admin", "days"};
             JSONObject jsob = new JSONObject(s);
             for (String item: field) {
                 switch (item)
                 {
                     case "ticket_code":
-                        details[0].setText(jsob.getString(item)); break;
+                        Log.d("aa","t1 id:"+details[0].getId()+"text="+jsob.getString(item)+" tag="+item+" gettext "+details[0].getText());
+                        details[0].setText(jsob.getString(item));
+                        break;
+
                     case "name":
-                        details[1].setText(jsob.getString(item)); break;
+                        Log.d("aa","t1 id:"+details[1].getId()+"text="+jsob.getString(item)+" tag="+item+" gettext "+details[1].getText());
+                        details[1].setText(jsob.getString(item));
+                         break;
                     case "email":
-                        details[2].setText(jsob.getString(item)); break;
+                        details[2].setText(jsob.getString(item));
+                        Log.d("aa","t1 id:"+details[2].getId()+"text="+jsob.getString(item)+" tag="+item);break;
                     case "phone":
-                        details[3].setText(jsob.getString(item)); break;
+                        details[3].setText(jsob.getString(item));
+                        Log.d("aa","t1 id:"+details[3].getId()+"text="+jsob.getString(item)+" tag="+item);break;
                     case "price":
-                        details[4].setText(jsob.getString(item)); break;
+                        details[4].setText(jsob.getString(item));
+                        Log.d("aa","t1 id:"+details[4].getId()+"text="+jsob.getString(item)+" tag="+item);break;
                     case "registered":
-                        details[5].setText(jsob.getString(item)); break;
+                        details[5].setText(jsob.getString(item));
+                        Log.d("aa","t1 id:"+details[5].getId()+"text="+jsob.getString(item)+" tag="+item);break;
+
+
                     case "paid":
-                        details[6].setText(jsob.getString(item)); break;
+                        details[6].setText(jsob.getString(item));
+                        Log.d("aa","t1 id:"+details[6].getId()+"text="+jsob.getString(item)+" tag="+item);break;
                     case "p_admin":
-                        details[7].setText(jsob.getString(item)); break;
+                        details[7].setText(jsob.getString(item));
+                        Log.d("aa","t1 id:"+details[7].getId()+"text="+jsob.getString(item)+" tag="+item);break;
                     case "attend":
-                        details[8].setText(jsob.getString(item)); break;
+                        details[8].setText(jsob.getString(item));
+                        Log.d("aa","t1 id:"+details[8].getId()+"text="+jsob.getString(item)+" tag="+item);break;
                     case "a_admin":
-                        details[9].setText(jsob.getString(item)); break;
+                        details[9].setText(jsob.getString(item));
+                        Log.d("aa","t1 id:"+details[9].getId()+"text="+jsob.getString(item)+" tag="+item);break;
+                    case "days":
+                        details[10].setText(jsob.getString(item));
+                        Log.d("aa","t1 id:"+details[10].getId()+"text="+jsob.getString(item)+" tag="+item);break;
                 }
                 if(item.equals("p_admin") && jsob.getString(item)!=null && MODE == getDetails.PAYMENT)
                     Toast.makeText(getDetailsClass,"ALREADY PAID",Toast.LENGTH_LONG).show();

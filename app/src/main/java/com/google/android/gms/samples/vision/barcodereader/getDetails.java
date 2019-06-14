@@ -61,15 +61,11 @@ public class getDetails extends AppCompatActivity {
             i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(i);
         }else {
-            int count = 1;
-            res = new TextView[10];
-            res[9] = findViewById(R.id.t10);
-            res[0] = findViewById(R.id.t1);
-            while (count<9)
-            {
-                res[count] = findViewById(R.id.t1+count+1);
-                count++;
-            }
+            int count = 0;
+            res = new TextView[11];
+            //res[10] = findViewById(R.id.t11);
+            //res[0] = findViewById(R.id.t1);
+            setIDs(res);
 
 
             idtext = findViewById(R.id.ID);
@@ -108,6 +104,22 @@ public class getDetails extends AppCompatActivity {
         Log.d("aa", id);
         MyAsyncTask myAsyncTask = new MyAsyncTask(getDetails.this,res, id, "", "", "", urlDetails, DETAILS);
         myAsyncTask.execute();
+    }
+
+    private void setIDs(TextView[] res)
+    {
+        res[0] = findViewById(R.id.t1);
+        res[1] = findViewById(R.id.t2);
+        res[2] = findViewById(R.id.t3);
+        res[3] = findViewById(R.id.t4);
+        res[4] = findViewById(R.id.t5);
+        res[5] = findViewById(R.id.t6);
+        res[6] = findViewById(R.id.t7);
+        res[7] = findViewById(R.id.t8);
+        res[8] = findViewById(R.id.t9);
+        res[9] = findViewById(R.id.t10);
+        res[10] = findViewById(R.id.t11);
+
     }
 
 }
